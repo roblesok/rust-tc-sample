@@ -13,3 +13,4 @@ name = "client"
 path = "src/client.rs"
 
 [dependencies]
+clap = "2.33.3"
