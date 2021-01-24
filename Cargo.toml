@@ -1,0 +1,15 @@
+[package]
+name = "rust-tcp-sample"
+version = "0.1.0"
+authors = ["Robles AR <tinolabs@yandex.com>"]
+edition = "2018"
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
+
+[dependencies]
